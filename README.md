@@ -1,16 +1,52 @@
-# shopping_app
+# Flutter Shopping App
 
-A new Flutter project.
+## Project overview
+Basic Shopping app UI with authentication and products.
 
-## Getting Started
+## Features
+- Sign Up
+- Sign In
+- View Products
+- Add product to cart
 
-This project is a starting point for a Flutter application.
+## Screenshots
+<table>
+  <tr>
+    <td align="center">
+      <img src="screenshots/Intro.png" alt="Intro Page" width="250"/><br/>
+      <em>Intro Page</em>
+    </td>
+    <td align="center">
+      <img src="screenshots/SignUp.png" alt="Sign Up Page" width="250"/><br/>
+      <em>Sign Up with constraints</em>
+    </td>
+    <td align="center">
+      <img src="screenshots/SignIn.png" alt="Sign In Page" width="250"/><br/>
+      <em>Sign In with constraints</em>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="screenshots/Notification.png" alt="Notification Page" width="250"/><br/>
+      <em>Notification after signing in</em>
+    </td>
+    <td align="center">
+      <img src="screenshots/HomePage.png" alt="Home Page" width="250"/><br/>
+      <em>Home Page with products and offers</em>
+    </td>
+    <td align="center">
+      <img src="screenshots/Cart.png" alt="Cart Page" width="250"/><br/>
+      <em>Adding a product to cart</em>
+    </td>
+  </tr>
+</table>
 
-A few resources to get you started if this is your first Flutter project:
+## Setup & run
+Requirements:
+- Flutter SDK (stable) — e.g., 3.x or later
+- Android Studio / Xcode or emulator
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Commands:
+```bash
+flutter pub get
+flutter run
